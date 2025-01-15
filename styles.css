@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+  max-width: 800px;
+  margin: auto;
+}
+
+#video-url {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #14833b;
+}
+
+#player-container {
+  margin-top: 20px;
+}
+
+#player {
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 720px;
+}
